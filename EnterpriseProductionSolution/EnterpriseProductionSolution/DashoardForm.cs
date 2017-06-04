@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace EnterprisePlanningSolution
 {
-    public partial class DashoardForm : Form
+    public partial class DashoardForm : MetroFramework.Forms.MetroForm
     {
         public DashoardForm()
         {
