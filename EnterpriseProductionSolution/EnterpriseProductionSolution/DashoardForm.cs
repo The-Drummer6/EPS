@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,16 +10,11 @@ using System.Windows.Forms;
 
 namespace EnterprisePlanningSolution
 {
-    public partial class MainForm : MetroFramework.Forms.MetroForm
+    public partial class DashoardForm : Form
     {
-        public MainForm()
+        public DashoardForm()
         {
             InitializeComponent();
-        }
-
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
