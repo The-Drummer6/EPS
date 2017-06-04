@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A9671CE9-2695-4192-BDCB-1D98B2FAA0EA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>EnterpriseProductionSolution</RootNamespace>
-    <AssemblyName>EnterpriseProductionSolution</AssemblyName>
+    <RootNamespace>EnterprisePlanningSolution</RootNamespace>
+    <AssemblyName>EnterprisePlanningSolution</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -84,6 +84,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
